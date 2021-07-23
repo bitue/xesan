@@ -100,4 +100,21 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width:600px) {}
+.burger {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .link {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
